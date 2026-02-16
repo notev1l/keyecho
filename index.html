@@ -1,26 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>keyecho</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="app-wrapper">
-        <h2>Press any key to start...</h2>
-        <div class="key-name">
-            <h2></h2>
-        </div>
-        <div class="key-code">
-            <h2></h2>
+      <h2 class="empty-state-msg">Press any key to start...</h2>
+      <div class="key-pressed">
+        <div class="key-info">
+          <span><h2 class="key-name">key name</h2></span>
+          <span><h2 class="key-code">key code</h2></span>
         </div>
         <div class="key-history">
-            <p></p>
+          <p class="key-history-text"></p>
         </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
